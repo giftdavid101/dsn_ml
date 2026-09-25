@@ -25,8 +25,8 @@ from sklearn.model_selection import KFold, cross_val_score
 RANDOM_STATE = 42
 
 # ---------- 1. Load ----------
-train = pd.read_csv('/mnt/user-data/uploads/train.csv')
-test = pd.read_csv('/mnt/user-data/uploads/test.csv')
+train = pd.read_csv('data/train.csv')
+test = pd.read_csv('data/test.csv')
 
 train['is_train'] = 1
 test['is_train'] = 0
